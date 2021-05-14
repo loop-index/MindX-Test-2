@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto</title>
+    <link rel = "stylesheet" href="format.css">
+</head>
+<body>
+    <div class="play">
+        <div class="banner">
+            <h1> LUCKY NUMBER </h1>
+        </div>
+
+        <div class="game">
+            <p> Dự đoán con số của bạn từ 1 đến 10. </p>
+            <p id="tries"> Bạn còn 3 lần đoán. </p>
+            <div class="inputbox">
+                <!-- <label for="box">Nhập số bạn đoán vào đây...</label> -->
+                <input type="text" id="box" placeholder="Nhập số bạn đoán vào đây...">
+                <button id="spin">
+                    Quay số
+                </button>
+            </div>
+            <p id="status"> </p>
+
+        </div>
+
+    </div>
+
+    <script src="game.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
